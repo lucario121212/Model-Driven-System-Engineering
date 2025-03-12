@@ -1,0 +1,102 @@
+@startuml
+
+left to right direction
+
+' Define actors (on the left)
+actor Passenger
+actor AirlineManager
+actor SecurityOfficer
+actor CustomerSupport
+
+' Define external systems (on the right)
+actor InternalSystem
+actor ExternalSystem
+
+' Define system boundary with all use cases (center)
+rectangle "System boundary" {
+    
+    usecase "Register" as UC1
+    usecase "Login" as UC2
+    usecase "Update Profile" as UC3
+    usecase "Book Ticket" as UC4
+    usecase "Modify Booking" as UC5
+    usecase "Cancel Booking" as UC6
+    usecase "Make Payment" as UC7
+    usecase "Request Refund" as UC8
+    usecase "Check-in Online" as UC9
+    usecase "Generate Boarding Pass" as UC10
+    usecase "Validate Documents" as UC11
+    usecase "Screen Passenger" as UC12
+    usecase "Raise Security Alert" as UC13
+    usecase "Schedule Flight" as UC14
+    usecase "Update Ticket Pricing" as UC15
+    usecase "Track Flights" as UC16
+    usecase "Provide Customer Support" as UC17
+    usecase "Handle Complaints" as UC18
+    usecase "Respond to Queries" as UC19
+    usecase "Send Notifications" as UC20
+    usecase "Manage Bookings" as UC21
+    usecase "Interface with Passenger" as UC22
+    usecase "Interface with Booking" as UC23
+    usecase "Check Ticket Availability" as UC24
+    usecase "Issue Ticket" as UC25
+    usecase "Cancel Ticket" as UC26
+    usecase "Refund Payment" as UC27
+    usecase "Tag Baggage" as UC28
+    usecase "Track Baggage" as UC29
+    usecase "Report Lost Baggage" as UC30
+    usecase "Track Lost Baggage" as UC31
+    usecase "Generate Flight Report" as UC32
+
+    ' Include relationships for dependent processes
+    UC4 ..> UC24 : <<include>>  ' Checking availability before booking
+    UC4 ..> UC25 : <<include>>  ' Issuing ticket as part of booking
+    UC6 ..> UC26 : <<include>>  ' Cancelling a ticket
+    UC7 ..> UC27 : <<include>>  ' Refund processing
+    UC9 ..> UC10 : <<include>>  ' Generating boarding pass after check-in
+    UC28 ..> UC29 : <<include>>  ' Tracking baggage
+    UC30 ..> UC31 : <<include>>  ' Tracking lost baggage
+    UC16 ..> UC32 : <<include>>  ' Generating flight reports
+}
+
+' Connect actors (left) to relevant use cases (center)
+Passenger --> UC1
+Passenger --> UC2
+Passenger --> UC3
+Passenger --> UC4
+Passenger --> UC5
+Passenger --> UC6
+Passenger --> UC7
+Passenger --> UC8
+Passenger --> UC9
+Passenger --> UC10
+Passenger --> UC28
+Passenger --> UC29
+Passenger --> UC30
+Passenger --> UC31
+
+SecurityOfficer --> UC11
+SecurityOfficer --> UC12
+SecurityOfficer --> UC13
+
+AirlineManager --> UC14
+AirlineManager --> UC15
+
+CustomerSupport --> UC17
+CustomerSupport --> UC18
+CustomerSupport --> UC19
+
+' Connect system functions (right) to use cases (center)
+InternalSystem --> UC16
+InternalSystem --> UC20
+InternalSystem --> UC21
+InternalSystem --> UC24
+InternalSystem --> UC25
+InternalSystem --> UC26
+InternalSystem --> UC27
+InternalSystem --> UC32
+
+ExternalSystem --> UC22
+ExternalSystem --> UC23
+
+@enduml
