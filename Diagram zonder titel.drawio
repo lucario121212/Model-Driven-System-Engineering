@@ -299,6 +299,27 @@
         <mxCell id="jpGYlBpaC6IZTMkHL4Mq-79" value="Track&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;Baggage&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="810" y="440" width="140" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="jpGYlBpaC6IZTMkHL4Mq-91" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt; Generating boarding pass after check-in" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="550" y="220" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGYlBpaC6IZTMkHL4Mq-92" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt; Tracking Baggage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="440" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGYlBpaC6IZTMkHL4Mq-93" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt; Tracking Lost Baggage" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="530" y="549.5" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGYlBpaC6IZTMkHL4Mq-94" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt; Refund Processing" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="540" y="870" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGYlBpaC6IZTMkHL4Mq-95" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt; Checking availability before booking" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="600" y="1754" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGYlBpaC6IZTMkHL4Mq-96" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt; Issuing ticket as part of booking" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="560" y="2420" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jpGYlBpaC6IZTMkHL4Mq-97" value="&amp;lt;&amp;lt;Include&amp;gt;&amp;gt; Cancelling a ticket" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="630" y="2630" width="180" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
