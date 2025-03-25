@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.2">
   <diagram name="Pagina-1" id="n_i-wj2kaOmo8ChYXNOt">
-    <mxGraphModel dx="1985" dy="3954" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2269" dy="4352" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -345,29 +345,53 @@
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-108" value="Flight lands" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2750" y="2258" width="160" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-203" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-109" target="sUbEzd6zy0ajpKUPzJGO-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-109" value="Collect Baggage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="2560" width="160" height="40" as="geometry" />
+          <mxGeometry x="2880" y="2600" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-110" target="sUbEzd6zy0ajpKUPzJGO-111">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-110" value="File Lost Baggage Report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="2640" width="160" height="40" as="geometry" />
+          <mxGeometry x="2880" y="2760" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-200" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-111" target="sUbEzd6zy0ajpKUPzJGO-189">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-111" value="Activate Baggage Tracking" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="2720" width="160" height="40" as="geometry" />
+          <mxGeometry x="2880" y="2840" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-195" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-112" target="sUbEzd6zy0ajpKUPzJGO-114">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-112" value="Notify Passenger" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="2800" width="160" height="40" as="geometry" />
+          <mxGeometry x="2762.5" y="3002.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-196" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-113" target="sUbEzd6zy0ajpKUPzJGO-187">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-113" value="Compensation process initiated" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="2882.5" width="180" height="40" as="geometry" />
+          <mxGeometry x="3000" y="3002.5" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-197" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-114" target="sUbEzd6zy0ajpKUPzJGO-187">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-114" value="Arrange Delivery or Pickup" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1350" y="2960" width="180" height="40" as="geometry" />
+          <mxGeometry x="2755" y="3080" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-207" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-115" target="sUbEzd6zy0ajpKUPzJGO-116">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-115" value="File Damage Claim" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="3040" width="160" height="40" as="geometry" />
+          <mxGeometry x="2880" y="3320" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-116" target="sUbEzd6zy0ajpKUPzJGO-204">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-116" value="Assess Compensation" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1360" y="3120" width="160" height="40" as="geometry" />
+          <mxGeometry x="2880" y="3400" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-117" value="File Lost Baggage Report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1360" y="3200" width="160" height="40" as="geometry" />
@@ -518,6 +542,61 @@
         </mxCell>
         <mxCell id="sUbEzd6zy0ajpKUPzJGO-171" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="2815" y="2198" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-186" value="Baggage_Handling" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;width=120;height=30;" vertex="1" parent="1">
+          <mxGeometry x="2640" y="2560" width="640" height="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-198" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-187" target="sUbEzd6zy0ajpKUPzJGO-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-187" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2945" y="3140" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-199" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-188" target="sUbEzd6zy0ajpKUPzJGO-190">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-188" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2945" y="3190" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-193" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-189" target="sUbEzd6zy0ajpKUPzJGO-113">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-194" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-189" target="sUbEzd6zy0ajpKUPzJGO-112">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-189" value="Baggage Found?" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.08571428571428572;labelBackgroundColor=none;textShadow=0;spacingTop=-33;" vertex="1" parent="1">
+          <mxGeometry x="2872.5" y="2920" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-205" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-190" target="sUbEzd6zy0ajpKUPzJGO-204">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3160" y="3270" />
+              <mxPoint x="3160" y="3515" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-206" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-190" target="sUbEzd6zy0ajpKUPzJGO-115">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-190" value="Damaged Baggage?" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.08571428571428572;labelBackgroundColor=none;textShadow=0;spacingTop=-33;" vertex="1" parent="1">
+          <mxGeometry x="2872.5" y="3250" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-192" value="No" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-191" target="sUbEzd6zy0ajpKUPzJGO-188">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="3240" y="2700" />
+              <mxPoint x="3240" y="3205" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-202" value="Yes" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="sUbEzd6zy0ajpKUPzJGO-191" target="sUbEzd6zy0ajpKUPzJGO-110">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-191" value="Baggage Lost?" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=hexagon;perimeter=hexagonPerimeter2;arcSize=6;size=0.08571428571428572;labelBackgroundColor=none;textShadow=0;spacingTop=-33;" vertex="1" parent="1">
+          <mxGeometry x="2872.5" y="2680" width="175" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="sUbEzd6zy0ajpKUPzJGO-204" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="2945" y="3500" width="30" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
