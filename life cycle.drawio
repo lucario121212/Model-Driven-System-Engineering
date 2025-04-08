@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.9">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2456" dy="1389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3023" dy="1709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -328,6 +328,121 @@
           <mxGeometry x="890" y="570" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-151" value="EmergencyLanding" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-127">
+          <mxGeometry x="1110" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-154" value="Passenger Lifecycle" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2440" y="150" width="510" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-155" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154">
+          <mxGeometry x="240" y="30" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-156" value="Threat Detected" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="255" y="120" as="targetPoint" />
+            <mxPoint x="255" y="60" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-157" value="TriggerEmergencyProtocol" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154" source="yz-Z1-8aH_BNr-5GH5Zy-158" target="yz-Z1-8aH_BNr-5GH5Zy-160">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-158" value="ThreatDetected" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154">
+          <mxGeometry x="195" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-159" value="Notify Autorities" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154" source="yz-Z1-8aH_BNr-5GH5Zy-160" target="yz-Z1-8aH_BNr-5GH5Zy-162">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-160" value="TriggerEmergencyProtocol" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154">
+          <mxGeometry x="177.5" y="250" width="155" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-161" value="EvacuationRequired" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154" source="yz-Z1-8aH_BNr-5GH5Zy-162" target="yz-Z1-8aH_BNr-5GH5Zy-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-162" value="NotifyAuthorities" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154">
+          <mxGeometry x="195" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-163" value="Guidee Passengers to Safety" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154" source="yz-Z1-8aH_BNr-5GH5Zy-164" target="yz-Z1-8aH_BNr-5GH5Zy-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-171" value="Emergency Completed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154" source="yz-Z1-8aH_BNr-5GH5Zy-164" target="yz-Z1-8aH_BNr-5GH5Zy-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-164" value="EvacuationRequired" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154">
+          <mxGeometry x="195" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-166" value="GuideToSafety" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154">
+          <mxGeometry x="110" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-170" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-154">
+          <mxGeometry x="360" y="685" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-172" value="Flight Operations Lifecycle" style="swimlane;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="3890" y="1300" width="1280" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-173" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
+          <mxGeometry x="260" y="40" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-174" value="Flight Takes Off" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172" source="yz-Z1-8aH_BNr-5GH5Zy-173">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="275" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-175" value="Flight Lands" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172" source="yz-Z1-8aH_BNr-5GH5Zy-177" target="yz-Z1-8aH_BNr-5GH5Zy-179">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-176" value="In-Flight Services" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172" source="yz-Z1-8aH_BNr-5GH5Zy-177" target="yz-Z1-8aH_BNr-5GH5Zy-184">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-177" value="Flight Takes Off" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
+          <mxGeometry x="215" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-178" value="Flight Completed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172" source="yz-Z1-8aH_BNr-5GH5Zy-179" target="yz-Z1-8aH_BNr-5GH5Zy-187">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-179" value="FlightLands" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
+          <mxGeometry x="95" y="250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-180" value="Offer Duty-Free Shopping" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172" source="yz-Z1-8aH_BNr-5GH5Zy-184" target="yz-Z1-8aH_BNr-5GH5Zy-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-181" value="Provide Meals &amp;amp; Drinks" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172" source="yz-Z1-8aH_BNr-5GH5Zy-184" target="yz-Z1-8aH_BNr-5GH5Zy-185">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-182" value="Handle Passenger Requests" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172" source="yz-Z1-8aH_BNr-5GH5Zy-184" target="yz-Z1-8aH_BNr-5GH5Zy-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-183" value="Handle Medical Emergency" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172" source="yz-Z1-8aH_BNr-5GH5Zy-184" target="yz-Z1-8aH_BNr-5GH5Zy-191">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-184" value="InFlightServices" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
+          <mxGeometry x="650" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-185" value="ProvideMeals" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
+          <mxGeometry x="320" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-186" value="OfferDutyFreeShopping" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
+          <mxGeometry x="515" y="380" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-187" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
+          <mxGeometry x="140" y="494" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-188" value="HandleRequests" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
+          <mxGeometry x="770" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-189" value="Notify Crew and Medical team" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172" source="yz-Z1-8aH_BNr-5GH5Zy-191" target="yz-Z1-8aH_BNr-5GH5Zy-192">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-190" value="Emergency Landing If Required" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172" source="yz-Z1-8aH_BNr-5GH5Zy-191" target="yz-Z1-8aH_BNr-5GH5Zy-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-191" value="MedicalEmergency" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
+          <mxGeometry x="1000" y="380" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-192" value="NotifyCrew" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
+          <mxGeometry x="890" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="yz-Z1-8aH_BNr-5GH5Zy-193" value="EmergencyLanding" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="yz-Z1-8aH_BNr-5GH5Zy-172">
           <mxGeometry x="1110" y="570" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
